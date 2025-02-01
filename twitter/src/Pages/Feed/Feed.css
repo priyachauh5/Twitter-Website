@@ -1,0 +1,35 @@
+/* Feed.css */
+.feed {
+    flex: 0.6;
+    padding: 20px;
+    border-left: 1px solid #e6ecf0;
+    border-right: 1px solid #e6ecf0;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    overflow-y: scroll;
+    scrollbar-width: none; /* For Firefox */
+}
+
+.feed::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Edge */
+}
+
+.feed__header {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 100;
+    padding: 15px 20px;
+    border-bottom: 1px solid #e6ecf0;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.feed__header h2 {
+    margin: 0;
+}
+
+.feed > .Tweetbox {
+    margin-bottom: 15px;
+}

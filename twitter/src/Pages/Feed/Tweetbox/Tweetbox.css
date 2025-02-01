@@ -1,0 +1,50 @@
+/* Tweetbox.css */
+.tweetbox {
+    padding: 20px;
+    border-bottom: 1px solid #e6ecf0;
+    background-color: #ffffff;
+}
+
+.tweetbox__input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.tweetbox__input input {
+    flex: 1;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.imageIcon__tweetButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imageIcon {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #1d9bf0;
+}
+
+.imageInput {
+    display: none;
+}
+
+.tweetBox__tweetButton {
+    background-color: #1d9bf0;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    text-transform: inherit;
+    padding: 5px 20px;
+}
+
+.tweetBox__tweetButton:hover {
+    background-color: #1a8cd8;
+}

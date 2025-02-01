@@ -1,0 +1,52 @@
+/* widgets.css */
+
+.widgets {
+    flex: 0.3; /* Adjust size relative to the parent container */
+    border-left: 1px solid #e6ecf0; /* Light gray border on the left */
+    padding: 20px; /* Add padding for spacing */
+    background-color: #f5f8fa; /* Light gray background similar to Twitter */
+    height: 100vh; /* Make it take full height of the viewport */
+    overflow-y: scroll; /* Enable scrolling for overflow */
+  }
+  
+  .widget__input {
+    display: flex; /* Align items horizontally */
+    align-items: center;
+    background-color: #e6ecf0; /* Light gray input background */
+    padding: 10px;
+    border-radius: 20px; /* Rounded edges for the input container */
+    margin-bottom: 20px; /* Space below the input */
+  }
+  
+  .widget__searchIcon {
+    color: gray; /* Gray color for the search icon */
+  }
+  
+  .widget__input>input {
+    border: none; /* Remove border from the input */
+    outline: none; /* Remove outline */
+    background: none; /* Transparent background */
+    padding-left: 10px; /* Add spacing between the icon and text */
+    font-size: 16px; /* Adjust font size */
+    width: 100%; /* Use the full width of the container */
+  }
+  
+  .widget__widgetContainer {
+    margin-top: 20px; /* Space above the widget container */
+    background-color: white; /* White background for the container */
+    border-radius: 20px; /* Rounded edges */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+    padding: 15px; /* Add padding for content spacing */
+  }
+  
+  .widget__widgetContainer>h2 {
+    font-size: 18px; /* Slightly larger font for the heading */
+    font-weight: 800; /* Bold heading */
+    margin-bottom: 15px; /* Space below the heading */
+  }
+
+@media screen and (max-width: 768px) {
+    .widgets {
+       display:none;
+    }
+}
